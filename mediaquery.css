@@ -1,0 +1,133 @@
+@media screen and (min-width: 360px) and (max-width: 400px) {
+  /***index page***/
+  .header {
+    height: 5vh;
+    margin-bottom: 2vh;
+    padding: 2vh 0vw;
+  }
+
+  .title_first_word,
+  .title_second_word {
+    font-size: 4vh;
+  }
+  .title_first_word {
+    margin-left: 2vw;
+    margin-top: 0vh;
+  }
+  .title_second_word {
+    margin-left: 1vw;
+  }
+
+  /* plus button */
+  .plus {
+    height: 6vh;
+    margin-left: 20vw;
+  }
+  .button_ {
+    margin-left: 45%;
+  }
+  .mob_btn_text {
+    display: none;
+  } /* flex-box */
+  .flex_container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 70%;
+    gap: 60px;
+    justify-content: flex-start;
+    margin: 2vh 1vw 5vh 12vw;
+  }
+  .item {
+    height: 400px;
+    width: 300px;
+    border: 1px solid black;
+    box-shadow: 15px 0px 10px skyblue;
+    border-radius: 8px;
+  }
+  .disable_mob_item {
+    display: none;
+  }
+
+  /****add task page*****/
+
+  .button_ {
+    margin-left: 20%;
+    display: inline-block;
+    font-size: 6vh;
+  }
+
+  .add_new_task {
+    height: 40vh;
+    width: 90vw;
+    border-radius: 2vh;
+
+    position: absolute;
+    top: 40vh;
+    left: 4vw;
+    right: 2vw;
+  }
+  .add_new_task p {
+    font-size: 3vh;
+    margin: 2vh 0px 2vh 3vw;
+    display: inline-block;
+  }
+  .prev_pg_btn {
+    font-size: 3vh;
+    /* margin-left: 62%; */
+    position: absolute;
+    top: 2.5vh;
+    right: 12vw;
+  }
+  input[type="text"] {
+    height: 40px;
+    width: 80vw;
+    margin: 4vh 1vw 2vh 4vw;
+    background-color: gainsboro;
+    border-radius: 8px;
+  }
+  .submit_task_btn {
+    height: 6vh;
+    width: 36vw;
+    background-color: skyblue;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    margin: 6vh 2vw 0vh 45vw;
+    cursor: pointer;
+  }
+
+  /* ***paris page *** */
+
+  .link_section {
+    margin-bottom: 0vh;
+  }
+  .back_btn {
+    font-size: 3.6vh;
+    left: 6vw;
+    margin-top: 0vh;
+    position: relative;
+    bottom: 1vh;
+  }
+
+  .back_link {
+    font-size: 3vh;
+    left: 6vw;
+    display: inline-block;
+    position: relative;
+    bottom: 1.2vh;
+  }
+  .button_p {
+    /* position: absolute;
+  top: 136px; */
+    position: relative;
+    left: 8vw;
+    margin-bottom: 4vh;
+  }
+  /* media query file */
+  a[href^="./paris_item.html"]:hover {
+    pointer-events: none;
+    cursor: default;
+  }
+}
